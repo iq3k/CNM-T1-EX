@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="icon" href="favicon.png" type="image/png" sizes="16x16" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="navbar desktop-menu">
+     
+      <div id="menuSection" class="menu-sec">
+        <ul class="nav-menu">
+          <li><a href="ex0.html">Bài tập 0</a></li>
+          <li><a href="ex1.html">Bài tập 1</a></li>
+          <li><a href="ex2.html">Bài tập 2</a></li>
+          <li><a href="ex3.html">Bài tập 3</a></li>
+          <li><a href="ex4.html">Bài tập 4</a></li>
+          <li><a href="ex5.html">Bài tập 5</a></li>
+          <li><a href="ex6.html">Bài tập 6</a></li>
+          <li><a href="ex7.html">Bài tập 7</a></li>
+          <li><a href="ex8.html">Bài tập 8</a></li>
+          <li><a href="ex9.html">Bài tập 9</a></li>
+        </ul>
+      </div>
+      
+    </div>
+    <div
+      onclick="closeMobMenuToggle()"
+      id="mobMenuCont"
+      class="mob-menu-container"
+    >
+      <img src="src/close.png" alt="close-icon" />
+    </div>
+    <div id="mobMenuWrap" class="mob-menu-wrap">
+      <div class="menu-content">
+        <div class="menu-items">
+          <ul class="nav-menu">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="social-items">
+          <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-github"></i>
+            <i class="fas fa-basketball-ball"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <div class="logo">
+        <a href="#"><img src="src/logo.png" alt="my-logo" /></a>
+      </div>
+      <button onclick="mobMenuToggle()" class="menu">Menu</button>
+    </div>
+    <div class="body-content">
+      <HEAd>WELLCOME TO MY WEBSITE</HEAd>
+    </div>
+    <script type="text/javascript" src="src/script.js"></script>
+  </body>
+</html>
